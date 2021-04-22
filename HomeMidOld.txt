@@ -1,0 +1,63 @@
+<template>
+  <div class="mid">
+    <table>
+      <tr width="100%">
+        <td>
+          <div class="p1">
+            <div class="op">
+              <img class="option" src="1.png" />
+              <q-btn
+                class="btn1"
+                flat
+                label="Know More about Plant Diseases"
+                size="15px"
+                icon-right="eva-diagonal-arrow-right-up-outline"
+                dense
+              />
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="p1">
+            <div class="op">
+              <img class="option" src="3.jpg" />
+              <q-btn
+                class="btn1"
+                flat
+                label="How to keep your plants healthy"
+                size="15px"
+                icon-right="eva-diagonal-arrow-right-up-outline"
+                dense
+              />
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="p1">
+            <div class="op">
+              <img class="option" src="4.jpg" />
+              <q-btn
+                class="btn1"
+                flat
+                label="Get Solutions for plant diseases"
+                size="15px"
+                icon-right="eva-diagonal-arrow-right-up-outline"
+                dense
+              />
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+  .p1{
+    border-radius: 50px;
+  }
+</style>
